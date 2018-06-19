@@ -2,7 +2,7 @@
 # if a number is divisible by 5, return buzz
 #if a number is divisible by both 3 AND 5, return fizzbuzz
 
-def fizzbuzz(x)
+def fizzbuzz(x=gets.chomp)
   if x%3==0 && x%5!=0
     puts "fizz"
   
@@ -16,4 +16,4 @@ def fizzbuzz(x)
   end
 end  
 
-fizzbuzz(x=gets.chomp)
+fizzbuzz()
