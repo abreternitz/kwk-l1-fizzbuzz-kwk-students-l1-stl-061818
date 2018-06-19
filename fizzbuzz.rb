@@ -3,7 +3,6 @@
 #if a number is divisible by both 3 AND 5, return fizzbuzz
 
 def fizzbuzz(x)
-  x=gets.chomp
   puts "you gave me #{x}"
   
 #   if(x)
@@ -18,4 +17,4 @@ def fizzbuzz(x)
   
 end  
 
-fizzbuzz
+fizzbuzz(3)
