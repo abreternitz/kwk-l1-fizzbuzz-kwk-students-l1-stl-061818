@@ -7,6 +7,8 @@ def fizzbuzz(x)
     puts "fizz"
   else x%5==0 && x%3!=0
     puts "buzz"
+  else if x%5==0 && x%3==0
+    puts"fizzbuzz"
   end
 end  
 
