@@ -6,12 +6,15 @@ def fizzbuzz(x)
   if x%3==0 && x%5!=0
     puts "fizz"
   end
+  
   elsif x%5==0 && x%3!=0
     puts "buzz"
-  end 
+  end
+  
   elsif x%5==0 && x%3==0
     puts "fizzbuzz"
   end
+  
 end  
 
 fizzbuzz(15)
