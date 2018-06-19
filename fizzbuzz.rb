@@ -3,9 +3,9 @@
 #if a number is divisible by both 3 AND 5, return fizzbuzz
 
 def fizzbuzz(x)
-  puts "you gave me #{x}"
-  
-#   if(x)
+  if(x%3==true&&x%5=false)
+    puts "fizz"
+    
 
 # else
 #   else  
