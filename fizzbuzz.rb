@@ -6,7 +6,6 @@ def fizzbuzz(x)
   
   if x%3==0 && x%5!=0
     puts "fizz"
-  end
   
   else x%5==0 && x%3!=0
     puts "buzz"
