@@ -17,3 +17,5 @@ def fizzbuzz(x)
 #   end
   
 end  
+
+fizzbuzz
