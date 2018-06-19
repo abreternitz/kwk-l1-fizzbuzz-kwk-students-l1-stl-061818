@@ -12,7 +12,10 @@ def fizzbuzz(x)
   
   elsif x%5==0 && x%3==0
     puts "fizzbuzz"
+  elsif x%5!=0 && x%3!=0
+    puts "bang"
   end
+  
   
 end  
 
