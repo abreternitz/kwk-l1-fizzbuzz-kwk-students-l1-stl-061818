@@ -3,18 +3,15 @@
 #if a number is divisible by both 3 AND 5, return fizzbuzz
 
 def fizzbuzz(x)
-  if(x%3==true&&x%5=false)
+  if(x%3==0&&x%5!=0)
     puts "fizz"
-    
-
-# else
-#   else  
-  
-# end
-#   else if
-  
-#   end
-  
+  end
+  else(x%5=&&x%3!=0)
+    puts "buzz"
+  end
+  else if(x%3==0&&x%5==0)
+    puts"fizzbuzz"
+  end
 end  
 
 fizzbuzz(3)
