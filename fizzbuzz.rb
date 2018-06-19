@@ -7,11 +7,11 @@ def fizzbuzz(x)
     puts "fizz"
   end
   
-  elsif x%5==0 # && x%3!=0
+  else x%5==0 # && x%3!=0
     puts "buzz"
   end
   
-  elsif x%5==0 && x%3==0
+  else x%5==0 && x%3==0
     puts "fizzbuzz"
   end
   
